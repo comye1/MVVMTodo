@@ -8,31 +8,31 @@ https://github.com/codinginflow/MVVMTodo
 -- CoordinateLayout : FAB를 위해
 -- Parcelable Class : 프래그먼트간 전달을 위해
 
-	## fragment_tasks.xml
-	- CoordinatorLayout : parent
-	- RecyclerView
-	- FloatingActionButton
+## fragment_tasks.xml
+- CoordinatorLayout : parent
+- RecyclerView
+- FloatingActionButton
 
-	## item_tasks.xml
-	- RelativeLayout : parent
-	-- layout_alignParentStart/End/Top/Bottom
-	-- layout_alignStart/End/Top/Bottom
-	-- layout_toStartOf/toEndOf/toTopOf/toBottomOf
-	- CheckBox
-	- TextView
-	-- maxLines
-	-- elilipsized="end" **If set, causes words that are longer than the view is wide to be ellipsized instead of broken in the middle.**
-	- ImageView
+## item_tasks.xml
+- RelativeLayout : parent
+-- layout_alignParentStart/End/Top/Bottom
+-- layout_alignStart/End/Top/Bottom
+-- layout_toStartOf/toEndOf/toTopOf/toBottomOf
+- CheckBox
+- TextView
+-- maxLines
+-- elilipsized="end" **If set, causes words that are longer than the view is wide to be ellipsized instead of broken in the middle.**
+- ImageView
 
-	## fragment_add_edit_task.xml
-	- CoordinateLayout : parent
-	- LinearLayout
-	- EditText
-	- CheckBox
-	- FloatingActionButton
-	- TextView
+## fragment_add_edit_task.xml
+- CoordinateLayout : parent
+- LinearLayout
+- EditText
+- CheckBox
+- FloatingActionButton
+- TextView
 
-	## data / Task.kt
-	- data class for Room (= Entity)
-	- name, important, completed, created, id
-	- createdDataFormatted <- get from created
+## data / Task.kt
+- data class for Room (= Entity)
+- name, important, completed, created, id
+- createdDataFormatted <- get from created
