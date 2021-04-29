@@ -4,9 +4,9 @@ https://github.com/codinginflow/MVVMTodo
 # #1 Layouts & Room Entity
 
 ## 꿀팁
--- ctrl + alt + L : 코드 정리 (formatting)
--- CoordinateLayout : FAB를 위해
--- Parcelable Class : 프래그먼트간 전달을 위해
+- ctrl + alt + L : 코드 정리 (formatting)
+- CoordinateLayout : FAB를 위해
+- Parcelable Class : 프래그먼트간 전달을 위해
 
 ## fragment_tasks.xml
 - CoordinatorLayout : parent
